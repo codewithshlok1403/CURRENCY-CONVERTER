@@ -1,0 +1,109 @@
+*{
+    padding:0px;
+    margin:0px
+
+}
+body{
+background: url("bg.avif");
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+flex-direction: column;
+
+}
+h1{
+    color: rgb(152, 216, 24);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container{
+    background-color: black;
+    padding: 20px;
+    border-radius: 12px;
+    height: 51vh;
+    width: 58vw;
+    border: 11px solid black;
+}
+.amount{
+    margin-top: 1.2rem;
+}
+.amount p{
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+}
+input{
+    width: 100%;
+    margin-top: 5px;
+    border: 0.5px solid grey;
+    padding: 11px;
+    margin-left: -12px;
+    outline: none;
+    border-radius: 7px;
+}
+.drop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 19px;
+    margin-top: 1.2rem;
+}
+.select{
+    border: 0.1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:8px;
+    outline: none;
+    border-radius: 10px;
+
+}
+.select img{
+    max-width: 2.2rem;
+}
+.select select{
+    border: none;
+    outline: none;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+}
+i{
+    color: white;
+}
+.msg-contain{
+    margin-top: 26px;
+    font-size: 17px;
+    color: white;
+}
+button{
+    margin-top: 16px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 47px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: purple;
+    color:white;
+    border-radius: 12px;
+    cursor: pointer;
+}
+footer{
+    margin-top: 20px;
+    color: red;
+    background-color: black;
+    height: 35px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    font-size: 19px;
+
+}
